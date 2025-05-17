@@ -1,12 +1,48 @@
-# React + Vite
+# SoftSell – Software License Resale Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+*SoftSell* is a fictional software resale startup. This responsive, single-page marketing website was built as part of the *Credex Web Development Internship Assignment*. The site showcases essential product features, customer testimonials, and a lead capture form with clean design and intuitive user flow.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features Implemented
 
-## Expanding the ESLint configuration
+- *Hero Section*
+  - Eye-catching headline and subheading
+  - CTA button: “Sell My Licenses”
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- *How It Works*
+  - Three-step process: Upload License → Get Valuation → Get Paid
+  - Visual icons for each step
+
+- *Why Choose Us*
+  - 4 feature highlights with clean layout and short descriptions
+
+- *Customer Testimonials*
+  - Two dummy customer reviews with name, role, and company
+
+- *Contact Form*
+  - Fields: Name, Email, Company, License Type (dropdown), Message
+  - Frontend validation with error messaging
+
+- *Responsive Design*
+  - Mobile-friendly layout using Tailwind CSS
+  - Modern typography and consistent color palette
+
+---
+
+## 🛠 Tech Stack
+
+- *Framework*: React.js with Vite
+- *Styling*: Tailwind CSS
+- *Hosting*: Vercel / Netlify / GitHub Pages (choose as applicable)
+- *Icons*: Emoji-based for simplicity (can be swapped with SVGs)
+
+---
+
+## ⚙ Setup Instructions
+
+1. *Clone the repository:*
+
+   ```bash
+   git clone https://github.com/your-username/softsell.git
+   cd softsell
